@@ -60,6 +60,7 @@ urlpatterns = [
     url(r'^purchaserequisitiondetails', PurchaseRequisition.views.purchaserequisitiondetails, name="purchase_requisition_details"),
     url(r'^purchaserequisitionhistorydetails', PurchaseRequisition.views.purchaserequisitionhistorydetails, name='purchase_requisition_history_details'),
     url(r'^purchaserequisitionhistory', PurchaseRequisition.views.purchaserequisitionhistory, name="purchase_requisition_history"),
+   
 
     #request for quotation
     url(r'^requestforquotationform$', RequestForQuotation.views.requestforquotationform, name="request_for_quotation_form"),
